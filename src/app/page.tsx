@@ -2,6 +2,7 @@ import { links } from "@/data/links";
 import { LinkCard } from "@/components/link-card";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { ProfileHeader } from "@/components/profile-header";
+import Image from "next/image";
 
 export default function Home() {
   return (

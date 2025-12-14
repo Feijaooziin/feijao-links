@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   creator: "Leonardo Victor",
   keywords: ["links", "portfólio", "nextjs", "react", "feijão links"],
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.png",
   },
 };
 
