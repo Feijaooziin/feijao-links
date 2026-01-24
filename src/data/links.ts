@@ -8,7 +8,7 @@ export const links: LinkItem[] = [
   {
     name: "Instagram",
     description: "Acompanhe novidades e conteúdos",
-    url: "https://instagram.com/leoo_feijao",
+    url: "https://instagram.com/feijaostudiosdev",
   },
   {
     name: "WhatsApp",
