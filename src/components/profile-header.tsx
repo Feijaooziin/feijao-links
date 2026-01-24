@@ -1,4 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
 
 export function ProfileHeader() {
   return (
@@ -17,6 +19,16 @@ export function ProfileHeader() {
         Um apaixonado por tecnologia, compartilhando meus links e projetos com o
         mundo.
       </p>
+
+      {/* Botão Currículo (alinhado à esquerda) */}
+      <div className="w-full flex justify-end pt-6">
+        <Button asChild variant="outline">
+          <a href="/curriculo.pdf" download className="flex items-center gap-2">
+            <Download className="h-4 w-4" />
+            Baixar currículo
+          </a>
+        </Button>
+      </div>
     </div>
   );
 }

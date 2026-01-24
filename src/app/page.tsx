@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="min-h-screen flex justify-center p-6">
-      <div className="w-full max-w-md space-y-8">
+      <div className="w-full max-w-md space-y-2">
         {/* Top bar */}
         <div className="fixed top-4 right-4 z-50">
           <ThemeToggle />
