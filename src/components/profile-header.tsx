@@ -24,7 +24,7 @@ export function ProfileHeader() {
       <div className="w-full flex justify-end pt-6">
         <Button asChild variant="outline">
           <a
-            href="/CVLeonardoVictor"
+            href="/CVLeonardoVictor.pdf"
             download
             className="flex items-center gap-2"
           >
