@@ -23,7 +23,11 @@ export function ProfileHeader() {
       {/* Botão Currículo (alinhado à esquerda) */}
       <div className="w-full flex justify-end pt-6">
         <Button asChild variant="outline">
-          <a href="/curriculo.pdf" download className="flex items-center gap-2">
+          <a
+            href="/CVLeonardoVictor"
+            download
+            className="flex items-center gap-2"
+          >
             <Download className="h-4 w-4" />
             Baixar currículo
           </a>
